@@ -7,3 +7,6 @@ We provided the Python script for the IA assessment in the Script directory and 
 The flowchart and applications of the IA metric are shown below:
 ![image](PNG/Workflow.jpg)
 
+Please note that the embedded and non-embedded patches separation should perform on the reference image, not the image segmentation results. 
+
+
