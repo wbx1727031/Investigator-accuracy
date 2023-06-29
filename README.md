@@ -11,5 +11,6 @@ Please note that the embedded and non-embedded patches separation should perform
 What are embedded and non-embedded patches? Seen the following figure  :)
 ![image](PNG/Figure5.jpg)
 Owing to the circumcenter, incenter, and centroid points extracted from various single patches that cannot locate a single patch robustly, it is also applicable to use the ENOR layer to find the near-center subregion of each patch. The ENOR calculation method is shown in the IA assessment algorithm.
+![image](PNG/LOCATION.jpg)
 
 
