@@ -13,7 +13,7 @@ What are embedded and non-embedded patches? Seen the following figure  :)
 
 
 
-### Owing to the circumcenter, incenter, and centroid points extracted from various single patches that cannot locate a single patch robustly, it is also applicable to use the ENOR layer to find the near-center subregion of each patch. The patch-scale ENOR calculation method is shown in the IA assessment algorithm.
+### Owing to the circumcenter, incenter, and centroid points extracted from various single patches that cannot locate a single patch robustly, it is also applicable to use the ENOR layer to find the near-center subregion of each patch. The patch-scale ENOR calculation method is provided in the IA assessment algorithm.
 ![image](PNG/LOCATION.jpg)
 
 
