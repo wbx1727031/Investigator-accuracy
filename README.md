@@ -17,7 +17,12 @@ What are embedded and non-embedded patches? Seen the following figure  :)
 ![image](PNG/LOCATION.jpg)
 
 
-### If you have any issues during the IA calculation, do not hesitate to contact me by email (wbx19911026@outlook.com) or leave a message under this project.
+### Hope the IA metric can be helpful in your research project. If you have any issues during the IA calculation, do not hesitate to contact me by email (wbx19911026@outlook.com) or leave a message under this project.
+### The related paper has been published in the International Journal of Applied Earth Observation and Geoinformation (https://doi.org/10.1016/j.jag.2023.103402).
+
+
+
+
 
 
 
