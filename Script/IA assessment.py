@@ -12,12 +12,12 @@ from sklearn.preprocessing import MinMaxScaler
 import multiprocessing as mp
 from sklearn.metrics import precision_score, recall_score, accuracy_score, f1_score, cohen_kappa_score
 def read_img(filename):
-    dataset = gdal.Open(filename)  # 打开文件
-    im_width = dataset.RasterXSize  # 栅格矩阵的列数
-    im_height = dataset.RasterYSize  # 栅格矩阵的行数
-    im_geotrans = dataset.GetGeoTransform()  # 仿射矩阵
-    im_proj = dataset.GetProjection()  # 地图投影信息
-    im_data = dataset.ReadAsArray(0, 0, im_width, im_height)  # 将数据写成数组，对应栅格矩阵
+    dataset = gdal.Open(filename) 
+    im_width = dataset.RasterXSize 
+    im_height = dataset.RasterYSize  
+    im_geotrans = dataset.GetGeoTransform() 
+    im_proj = dataset.GetProjection() 
+    im_data = dataset.ReadAsArray(0, 0, im_width, im_height) 
     del dataset
     return im_proj, im_geotrans, im_data
 
@@ -28,18 +28,18 @@ def write_img(filename, im_proj, im_geotrans, im_data):
         datatype = gdal.GDT_UInt16
     else:
         datatype = gdal.GDT_Float32
-    # 判读数组维数
+    
     if len(im_data.shape) == 4:
         im_bands, im_height, im_width = im_data.shape
     else:
         im_bands, (im_height, im_width) = 1, im_data.shape
-    # 创建文件
-    driver = gdal.GetDriverByName("GTiff")  # 数据类型必须有，因为要计算需要多大内存空间
+   
+    driver = gdal.GetDriverByName("GTiff")  
     dataset = driver.Create(filename, im_width, im_height, im_bands, datatype)
-    dataset.SetGeoTransform(im_geotrans)  # 写入仿射变换参数
-    dataset.SetProjection(im_proj)  # 写入投影
+    dataset.SetGeoTransform(im_geotrans)  
+    dataset.SetProjection(im_proj) 
     if im_bands == 1:
-        dataset.GetRasterBand(1).WriteArray(im_data)  # 写入数组数据
+        dataset.GetRasterBand(1).WriteArray(im_data)  
     else:
         for i in range(im_bands):
             dataset.GetRasterBand(i + 1).WriteArray(im_data[i])
