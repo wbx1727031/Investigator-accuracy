@@ -8,5 +8,7 @@ The flowchart and applications of the IA metric are shown below:
 ![image](PNG/Workflow.jpg)
 
 Please note that the embedded and non-embedded patches separation should perform on the reference image, not the image segmentation results. 
+What are embedded and non-embedded patches? Seen the following figure  :)
+![image](PNG/Figure5.jpg)
 
 
