@@ -7,19 +7,17 @@ Accuracy evaluation is an essential step in validating image segmentation result
 The flowchart and applications of the IA metric are shown below:
 ![image](PNG/Workflow.jpg)
 
-Please note that the embedded and non-embedded patches separation should perform on the reference image, not the image segmentation results. 
-====================================
+### Please note that the embedded and non-embedded patches separation should perform on the reference image, not the image segmentation results. 
 What are embedded and non-embedded patches? Seen the following figure  :)
 ![image](PNG/Figure5.jpg)
 
 
 
-Owing to the circumcenter, incenter, and centroid points extracted from various single patches that cannot locate a single patch robustly, it is also applicable to use the ENOR layer to find the near-center subregion of each patch. The patch-scale ENOR calculation method is shown in the IA assessment algorithm.
-====================================
+### Owing to the circumcenter, incenter, and centroid points extracted from various single patches that cannot locate a single patch robustly, it is also applicable to use the ENOR layer to find the near-center subregion of each patch. The patch-scale ENOR calculation method is shown in the IA assessment algorithm.
 ![image](PNG/LOCATION.jpg)
 
 
-If you have any issues during the IA calculation, do not hesitate to contact me by email (wbx19911026@outlook.com) or leave a message under this project.
+###If you have any issues during the IA calculation, do not hesitate to contact me by email (wbx19911026@outlook.com) or leave a message under this project.
 ====================================
 
 
