@@ -18,6 +18,7 @@ What are embedded and non-embedded patches? Seen the following figure  :)
 
 
 ###If you have any issues during the IA calculation, do not hesitate to contact me by email (wbx19911026@outlook.com) or leave a message under this project.
-====================================
+
+
 
 
