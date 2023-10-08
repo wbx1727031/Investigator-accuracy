@@ -18,7 +18,7 @@ The circumcenter, incenter, and centroid points extracted from various single pa
 ![image](PNG/LOCATION.jpg)
 
 
-Hope that the `IA metric` can be helpful in your research project. If you have any issues during the IA calculation, do not hesitate to contact me via email (wbx19911026@outlook.com) or leave a message under this project.
+Hope that the `IA metric` can be helpful in your research project. If you have any issues during the IA calculation, do not hesitate to contact me via email (wbx19911026@outlook.com) or leave a message under this project.<br><br>
 The related paper has been published in International Journal of Applied Earth Observation and Geoinformation (https://doi.org/10.1016/j.jag.2023.103402).
 
 
